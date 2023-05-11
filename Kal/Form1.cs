@@ -35,5 +35,15 @@ namespace Kal
             Button btn = (Button)sender;
             textBox1.Text += btn.Text;
         }
+        private void ButtonDelete_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            textBox1.Text = string.Empty;
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
